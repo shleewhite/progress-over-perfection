@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import {Deck } from './components/RevealComponents/Deck'
+import {Slides} from './components/Slides'
+
+import './styles/reveal.js/reset.css'
+import './styles/reveal.js/reveal.css'
+import './styles/reveal.js/theme/black.css'
+import './styles/override/override.css' // need to use override plugin instead
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Deck>
+        <Slides />
+      </Deck>
     </div>
   );
 }
