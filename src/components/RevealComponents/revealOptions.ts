@@ -145,4 +145,10 @@ export default {
 
   // The display mode that will be used to show slides
   display: 'block',
+  dependencies: [
+    { src: 'plugin/accessibility/helper.js', async: true, condition: function() { 
+      return !!document.body.classList; 
+    },
+}
+]
 } as Options;

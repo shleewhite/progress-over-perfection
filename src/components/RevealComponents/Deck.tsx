@@ -16,13 +16,15 @@ export const Deck: FC<IDeckProps> = ({ options, children }) => {
     })
 
     presentation.initialize()
-  }, []);
+  }, [options]);
 
   return (
     <div className="reveal">
-      {/* <DecorativeBorder /> */}
       <div className="slides">{children}</div>
-      {/* <Author>@KatCodes</Author> */}
+      <aside style={{position: 'absolute', bottom: 24, left: 24, display: 'flex', flexDirection: 'column'}}>
+        Lee White
+        {/* <a>bit.ly/pop-libertyjs</a> */}
+      </aside>
     </div>
   );
 };

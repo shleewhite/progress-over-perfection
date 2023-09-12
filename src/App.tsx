@@ -6,7 +6,8 @@ import {Slides} from './components/Slides'
 import './styles/reveal.js/reset.css'
 import './styles/reveal.js/reveal.css'
 import './styles/reveal.js/theme/black.css'
-import './styles/override/override.css' // need to use override plugin instead
+import './styles/plugin/accessibility.css'
+import './styles/override/override.css'
 
 function App() {
   return (
