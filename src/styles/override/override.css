@@ -1,37 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,700&display=swap");
+
 /*********************************************
  * THEME OVERRIDES
  *********************************************/
- :root {
+:root {
+  --r-background-color: #f3edda;
+  --r-heading-color: #1d704f;
+  --r-main-color: #1d704f;
+  --r-link-color: #1d704f;
+  --r-link-color-hover: #11402d;
   --r-heading-text-transform: none;
-
-  /* 
-  --r-background-color: #191919;
-  --r-main-font: Source Sans Pro, Helvetica, sans-serif;
-  --r-main-font-size: 42px;
-  --r-main-color: #fff;
-  --r-block-margin: 20px;
-  --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Source Sans Pro, Helvetica, sans-serif;
-  --r-heading-color: #fff;
-  --r-heading-line-height: 1.2;
-  --r-heading-letter-spacing: normal;
-  --r-heading-text-shadow: none;
-  --r-heading-font-weight: 600;
-  --r-heading1-text-shadow: none;
-  --r-heading1-size: 2.5em;
-  --r-heading2-size: 1.6em;
-  --r-heading3-size: 1.3em;
-  --r-heading4-size: 1em;
-  --r-code-font: monospace;
-  --r-link-color: #42affa;
-  --r-link-color-dark: #068de9;
-  --r-link-color-hover: #8dcffc;
-  --r-selection-background-color: rgba(66, 175, 250, 0.75);
-  --r-selection-color: #fff; 
-  */
+  --r-heading-font: Lato, Helvetica, sans-serif;
+  --r-main-font: Lato, Helvetica, sans-serif;
+  --r-main-font-size: 2.5rem;
+  --r-heading3-size: 2rem;
 }
 
-.reveal {
+.reveal,
+.reveal section {
   height: 100vh;
   width: 100vw;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal a {
+  text-decoration: underline;
+}
+
+.reveal img {
+  object-fit: contain;
+}
+
+.reveal p {
+  text-align: left;
+}
+
+.reveal pre code {
+  max-height: none;
+}
+
+/*********************************************
+ * UTILITIES
+ *********************************************/
+.visually-hidden {
+  border: 0px;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: var(--r-link-color);
+}
+
+.reveal .controls .controls-arrow {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #11402d;
+  height: 5px;
 }

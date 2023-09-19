@@ -8,7 +8,8 @@ Presenting at LibertyJS 2023.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To run: 
+To run:
+
 1. Go into the directory, install dependencies, and start the development server
 
 ```sh

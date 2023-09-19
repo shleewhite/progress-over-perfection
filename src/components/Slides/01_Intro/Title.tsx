@@ -1,13 +1,10 @@
-import React, {FC} from 'react'
+import React, { type FC } from "react"
 
-import {Slide} from '../../RevealComponents/Slide'
+import { TitleSlideTemplate } from "../../SlideTemplates/TitleSlide"
 
 export const Title: FC = () => (
-  <Slide>
-    <h2>Progress over perfection</h2>
-    <p>Your first steps in accessibility</p>
-
-    <p>Lee White</p>
-    <p>LibertyJS | October 13th, 2023</p>
-  </Slide>
+  <TitleSlideTemplate
+    heading="Progress Over Perfection"
+    subHeading="Your first steps in accessibility"
+  />
 )

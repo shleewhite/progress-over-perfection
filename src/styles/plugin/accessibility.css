@@ -1,4 +1,3 @@
-
 /* Include in your HTML file along with accessibility-helper.js
   or copy contents to your theme css */
 
@@ -9,8 +8,8 @@
  *
  * 2014 Marcy Sutton, http://marcysutton.com
  *********************************************/
-.reveal .slides>section>.accessibilityWrapper,
-.reveal .slides>section>section>.accessibilityWrapper {
+.reveal .slides > section > .accessibilityWrapper,
+.reveal .slides > section > section > .accessibilityWrapper {
   display: none;
   visibility: hidden;
 }

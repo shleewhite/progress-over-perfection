@@ -1,11 +1,11 @@
-import React, {ReactNode, FC} from 'react';
-import {Options} from 'reveal.js'
+import React, { type ReactNode, type FC } from "react"
+import { type Options } from "reveal.js"
 
 interface ISlide {
   children?: ReactNode
-  transition?: Options['transition']
+  transition?: Options["transition"]
 }
 
-export const Slide: FC<ISlide> = ({ children, transition = 'slide' }) => (
+export const Slide: FC<ISlide> = ({ children, transition = "slide" }) => (
   <section data-transition={transition}>{children}</section>
-);
+)
