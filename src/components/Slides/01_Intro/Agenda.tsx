@@ -2,13 +2,7 @@ import React, { type FC } from "react"
 
 import { Slide } from "../../RevealComponents/Slide"
 
-const agendaItems = [
-  "Intro",
-  "Semantic HTML",
-  "ARIA",
-  "Quick Tips",
-  "Resources",
-]
+const agendaItems = ["Accessibility", "Semantic HTML", "ARIA", "Next Steps"]
 
 export const Agenda: FC = () => (
   <Slide>

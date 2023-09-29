@@ -28,29 +28,46 @@ export const AccessibilityPeople: FC = () => (
         <div
           style={{
             display: "inline-grid",
-            gridTemplateRows: "1fr 1fr",
+            gridTemplateRows: "auto 1fr auto",
             rowGap: "1rem",
           }}
         >
-          <div style={{ backgroundColor: "black" }} />
-          <p style={{ fontSize: "1.75rem" }}>
+          <img
+            alt="Four disabled people of color with canes and prosthetic legs laugh while chatting. They are on a rooftop deck, in chairs of various height, with greenery and city high-rises in the background."
+            src="https://disabledandhere.files.wordpress.com/2019/10/dah-party02.jpg"
+          />
+          <p>
             Technology is a critical way people interact with the world and this
             is no different for people with disabilities.
           </p>
+          <a
+            href="https://affecttheverb.com/disabledandhere/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ fontSize: "1.75rem", paddingBottom: "1rem" }}
+          >
+            Images: Disabled and Here
+          </a>
         </div>
-        <div style={{ backgroundColor: "black", marginBottom: "4px" }} />
+        <img
+          alt="Portrait shot of a Deaf Black man wearing glasses and a KN-95 mask signing in a video chat via laptop. The man sits at a coffee table inside a community library packed with books and posters."
+          src="https://affecttheverb.com/images/stock/dahasl-06-54bb19b9.jpg"
+        />
         <div
           style={{
             display: "inline-grid",
-            gridTemplateRows: "auto 4fr 1fr",
+            gridTemplateRows: "auto 1fr",
             rowGap: "1rem",
           }}
         >
-          <p style={{ fontSize: "1.75rem" }}>
+          <p>
             When we fail to write accessible code or design accessible user
             flows, we are excluding people.
           </p>
-          <div style={{ backgroundColor: "black" }} />
+          <img
+            alt="Three Black and disabled folx laugh uproariously while strolling down a sidewalk on a windy day. On the left, a non-binary person walks with a cane in one hand and a tangle stim toy in the other. In the middle, a non-binary person rolls along in their power wheelchair. On the right, a femme walks with fabulously windswept hair. A street parking meter is in the background on the right."
+            src="https://affecttheverb.com/images/stock/disabledandhere-005-4061fd7e.jpg"
+          />
           <div />
         </div>
       </div>

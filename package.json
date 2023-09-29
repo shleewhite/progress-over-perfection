@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ariakit/react": "^0.3.3",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/react-syntax-highlighter": "^15.5.7",
     "@types/reveal.js": "^4.4.2",
     "react": "^18.2.0",
+    "react-aria-components": "^1.0.0-beta.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^15.5.0",
@@ -30,7 +32,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier . --write"
   },
   "browserslist": {
     "production": [

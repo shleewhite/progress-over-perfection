@@ -8,6 +8,8 @@ import { AccessibilityWebDefinition } from "./02_Accessibility/WebDefinition"
 import { AccessibilityPeople } from "./02_Accessibility/People"
 import { AccessibilityDisabilitySpectrum } from "./02_Accessibility/DisabilitySpectrum"
 import { AccessibilityCurrentState } from "./02_Accessibility/CurrentState"
+import { AccessibilityStats1 } from "./02_Accessibility/Stats1"
+import { AccessibilityStats2 } from "./02_Accessibility/Stats2"
 import { SemanticHTMLTitle } from "./03_SemanticHTML/Title"
 import { SemanticHTMLDefinition } from "./03_SemanticHTML/Definition"
 import { SemanticHTMLAccessibility } from "./03_SemanticHTML/Accessibility"
@@ -20,7 +22,7 @@ import { AriaDisclaimer } from "./04_ARIA/Disclaimer"
 import { AriaRole } from "./04_ARIA/Role"
 import { AriaProperty } from "./04_ARIA/Property"
 import { AriaState } from "./04_ARIA/State"
-import { AriaExample } from "./04_ARIA/Example"
+// import { AriaExample } from "./04_ARIA/Example"
 import { AriaAPG } from "./04_ARIA/AriaAPG"
 import { AriaLibraries } from "./04_ARIA/Libraries"
 import { Resources } from "./05_Conclusion/Resources"
@@ -34,6 +36,8 @@ export const Slides: FC = () => (
     <Agenda />
     <AccessibilityTitle />
     <AccessibilityPeople />
+    <AccessibilityStats1 />
+    <AccessibilityStats2 />
     <AccessibilityDisabilitySpectrum />
     <AccessibilityWebDefinition />
     <AccessibilityCurrentState />
@@ -45,13 +49,13 @@ export const Slides: FC = () => (
     {/* <SemanticHTMLQuickTips /> */}
     <AriaTitle />
     <AriaDefinition />
-    <AriaDisclaimer />
     <AriaRole />
     <AriaProperty />
     <AriaState />
-    <AriaExample />
+    {/* <AriaExample /> */}
     <AriaAPG />
     <AriaLibraries />
+    <AriaDisclaimer />
     <Resources />
     <GAAD />
     <ThankYou />

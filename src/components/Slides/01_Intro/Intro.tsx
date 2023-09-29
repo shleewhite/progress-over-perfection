@@ -28,7 +28,7 @@ export const Intro: FC = () => (
           I am a UX Engineer who specializes in accessibility. I currently work
           at Olark and was at Salesforce and Twilio previously.{" "}
         </p>
-        <p>In my free time, I trail run and knit sweaters.</p>
+        {/* <p>In my free time, I trail run and knit sweaters.</p> */}
       </>
     }
   />

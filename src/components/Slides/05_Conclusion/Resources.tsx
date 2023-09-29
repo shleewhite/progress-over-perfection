@@ -5,7 +5,7 @@ import { HorizontalThirdsSlideTemplate } from "../../SlideTemplates/HorizontalTh
 export const Resources: FC = () => (
   <HorizontalThirdsSlideTemplate
     firstColumn={
-      <h2 style={{ color: "var(--r-background-color)" }}>Resources</h2>
+      <h2 style={{ color: "var(--r-background-color)" }}>Next Steps</h2>
     }
     secondColumn={
       <ul>
@@ -43,6 +43,24 @@ export const Resources: FC = () => (
             rel="noreferrer"
           >
             Accessible design posters
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.a11y-collective.com/blog/automated-accessibility-testing-a-few-scenarios/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Automated accessibility testing
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://inclusive.microsoft.design"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Microsoft Inclusive Design
           </a>
         </li>
       </ul>

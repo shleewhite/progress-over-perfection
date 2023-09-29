@@ -10,28 +10,29 @@ export const AccessibilityCurrentState: FC = () => (
       </h2>
     }
     secondColumn={
-      <>
-        <p>
+      <div
+        style={{
+          maxWidth: "60vw",
+          display: "flex",
+          flexDirection: "column",
+          height: "100%",
+        }}
+      >
+        <p style={{ flexGrow: 1 }}>
           Each year, WebAIM does a study of the top million website&apos;s home
           pages. In 2023, the average home page had{" "}
           <strong>50 accessibility errors</strong>.
         </p>
 
-        <p>
-          As developers, we have to <strong>write better code</strong>.
-        </p>
-
-        <div>
-          <a
-            href="https://webaim.org/projects/million/"
-            target="_blank"
-            rel="noreferrer"
-            style={{ fontSize: "1.75rem" }}
-          >
-            Source: WebAIM Million
-          </a>
-        </div>
-      </>
+        <a
+          href="https://webaim.org/projects/million/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ fontSize: "1.75rem", paddingBottom: "1rem" }}
+        >
+          Source: WebAIM Million
+        </a>
+      </div>
     }
   />
 )
