@@ -26,17 +26,43 @@ export const SemanticHTMLDontExample: FC = () => (
   <Slide>
     <div
       style={{
-        width: "100vw",
         height: "100vh",
+        paddingRight: "4rem",
+        paddingLeft: "4rem",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
       <h2 className="visually-hidden">What not to do</h2>
-      <SyntaxHighlighter language="markup" style={a11yDark} wrapLines>
-        {codeSnippet}
-      </SyntaxHighlighter>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "2fr 1fr",
+          columnGap: "4rem",
+        }}
+      >
+        <SyntaxHighlighter language="markup" style={a11yDark} wrapLines>
+          {codeSnippet}
+        </SyntaxHighlighter>
+        <div
+          style={{
+            backgroundColor: "white",
+            borderRadius: "0.3rem",
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            padding: "1rem",
+            height: "fit-content",
+          }}
+        >
+          <h3>Issues</h3>
+          <ul>
+            <li>Uses classes to indicate meaning visually</li>
+            <li>Button with no label</li>
+            <li>Text input with no label</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </Slide>
 )

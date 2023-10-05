@@ -14,6 +14,7 @@ export const AccessibilityWebDefinition: FC = () => (
           display: "flex",
           flexDirection: "column",
           height: "100%",
+          paddingBottom: "4rem",
         }}
       >
         <div style={{ flexGrow: 1 }}>
@@ -27,18 +28,16 @@ export const AccessibilityWebDefinition: FC = () => (
             regulations differ between countries.
           </p>
         </div>
-        <a
-          href="https://www.w3.org/WAI/fundamentals/accessibility-intro/"
-          target="_blank"
-          rel="noreferrer"
-          style={{
-            width: "fit-content",
-            fontSize: "1.75rem",
-            paddingBottom: "1rem",
-          }}
-        >
-          Source: W3C Introduction to Web Accessibility
-        </a>
+        <div>
+          <a
+            href="https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ fontSize: "1.75rem" }}
+          >
+            Source: W3C Introduction to Web Accessibility
+          </a>
+        </div>
       </div>
     }
   />

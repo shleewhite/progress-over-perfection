@@ -1,31 +1,38 @@
 import React, { type FC } from "react"
 
-import { VerticalThirdsSlideTemplate } from "../../SlideTemplates/VerticalThirdsSlide"
+import { Slide } from "../../RevealComponents/Slide"
 
 export const AccessibilityDisabilitySpectrum: FC = () => (
-  <VerticalThirdsSlideTemplate
-    firstColumn={
-      <div
+  <Slide>
+    <div
+      style={{
+        height: "100vh",
+        width: "100vw",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <h2 className="visually-hidden">Disability is a spectrum</h2>
+      <ul
         style={{
-          height: "100%",
+          listStyleType: "none",
           display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
+          columnGap: "4rem",
+          fontWeight: "bold",
+          fontSize: "4rem",
+          margin: "0px",
+          maxWidth: "unset",
         }}
       >
-        <img
-          alt="Diagram indicating how disability: one person has one arm, another has an arm injury requiring a sling, and another is holding a baby their arm."
-          src="/images/disability-spectrum.png"
-          style={{ maxHeight: "80vh" }}
-        />
-      </div>
-    }
-    secondColumn={
-      <>
-        <h2></h2>
-        <p></p>
-      </>
-    }
-  />
+        <li style={{ paddingBottom: "0px", lineHeight: "unset" }}>Permanent</li>
+        <hr />
+        <li style={{ paddingBottom: "0px", lineHeight: "unset" }}>Temporary</li>
+        <hr />
+        <li style={{ paddingBottom: "0px", lineHeight: "unset" }}>
+          Situational
+        </li>
+      </ul>
+    </div>
+  </Slide>
 )

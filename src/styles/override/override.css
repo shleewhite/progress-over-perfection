@@ -14,7 +14,7 @@
   --r-heading-text-transform: none;
   --r-heading-font: Atkinson Hyperlegible, Helvetica, sans-serif;
   --r-main-font: Atkinson Hyperlegible, Helvetica, sans-serif;
-  --r-main-font-size: 2.5rem;
+  --r-main-font-size: 2rem;
   --r-heading3-size: 2rem;
 }
 
@@ -38,11 +38,29 @@
 
 .reveal p {
   text-align: left;
+}
+
+.reveal ul,
+.reveal p {
   max-width: 60vw;
+}
+
+.reveal li:not(:last-child) {
+  line-height: 2.5rem;
+  padding-bottom: 1.25rem;
 }
 
 .reveal pre code {
   max-height: none;
+}
+
+.reveal hr {
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+  transform: rotate(90deg);
 }
 
 /*********************************************
@@ -113,6 +131,7 @@
     0 1px 1px rgba(0, 0, 0, 0.1);
   font-weight: 500;
   height: fit-content;
+  margin-bottom: 8px;
 }
 
 .button:hover {

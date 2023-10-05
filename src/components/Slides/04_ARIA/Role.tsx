@@ -2,12 +2,10 @@ import React, { type FC } from "react"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/prism"
 
-import { SlideWithNavTemplate } from "../../SlideTemplates/SlideWithNav"
+import { Slide } from "../../RevealComponents/Slide"
 import { MenuExample } from "../../Examples/Menu"
 
-const codeSnippet = `<button>
-  Actions
-</button>
+const codeSnippet = `<button>Actions</button>
 <div role="menu">
   <div role="menuitem">Edit</div>
   <div role="menuitem">Delete</div>
@@ -15,14 +13,18 @@ const codeSnippet = `<button>
 </div>`
 
 export const AriaRole: FC = () => (
-  <SlideWithNavTemplate
-    navItems={["Role", "Property", "State"]}
-    currentIndex={0}
-  >
-    <>
+  <Slide>
+    <div
+      style={{
+        margin: "4rem",
+        display: "flex",
+        flexDirection: "column",
+        rowGap: "1rem",
+      }}
+    >
       <div>
         <h2>Role</h2>
-        <p>
+        <p style={{ marginBottom: "0px" }}>
           Roles are element types that will not change with time or user
           actions. They set expectations for how the user can interact with the
           UI.
@@ -31,7 +33,7 @@ export const AriaRole: FC = () => (
       <div
         style={{
           display: "inline-grid",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: "2fr 1fr",
           justifyItems: "center",
         }}
       >
@@ -42,6 +44,6 @@ export const AriaRole: FC = () => (
           <MenuExample />
         </div>
       </div>
-    </>
-  </SlideWithNavTemplate>
+    </div>
+  </Slide>
 )

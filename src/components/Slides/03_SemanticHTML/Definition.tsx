@@ -8,7 +8,14 @@ export const SemanticHTMLDefinition: FC = () => (
       <h2 style={{ color: "var(--r-background-color)" }}>Semantic HTML</h2>
     }
     secondColumn={
-      <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "100%",
+          paddingBottom: "4rem",
+        }}
+      >
         <div style={{ flexGrow: 1 }}>
           <p style={{ marginBottom: "2rem" }}>
             Semantic HTML is HTML that introduces meaning to the web page rather
@@ -40,10 +47,6 @@ export const SemanticHTMLDefinition: FC = () => (
                 <li>ul</li>
                 <li>table</li>
                 <li>button</li>
-                <li>input</li>
-                <li>a</li>
-                <li>p</li>
-                <li>h2</li>
               </ul>
             </div>
             <div>
@@ -68,14 +71,16 @@ export const SemanticHTMLDefinition: FC = () => (
             </div>
           </div>
         </div>
-        <a
-          href="https://www.thoughtco.com/why-use-semantic-html-3468271"
-          target="_blank"
-          rel="noreferrer"
-          style={{ fontSize: "1.75rem", paddingBottom: "1rem" }}
-        >
-          Source: Why use semantic HTML?
-        </a>
+        <div>
+          <a
+            href="https://www.thoughtco.com/why-use-semantic-html-3468271"
+            target="_blank"
+            rel="noreferrer"
+            style={{ fontSize: "1.75rem" }}
+          >
+            Source: Why use semantic HTML?
+          </a>
+        </div>
       </div>
     }
   />

@@ -32,7 +32,7 @@ export const TitleSlideTemplate: FC<ITitleSlideTemplateProps> = ({
           style={{
             fontWeight: "900",
             fontStyle: "italic",
-            fontSize: "8rem",
+            fontSize: "6rem",
             fontFamily: "Playfair Display, Helvetica, sans-serif",
           }}
         >
@@ -40,7 +40,7 @@ export const TitleSlideTemplate: FC<ITitleSlideTemplateProps> = ({
         </h2>
         <p
           style={{
-            fontSize: "4rem",
+            fontSize: "3rem",
             fontWeight: "900",
           }}
         >

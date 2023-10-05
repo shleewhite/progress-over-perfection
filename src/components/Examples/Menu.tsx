@@ -1,23 +1,25 @@
 import React, { type FC } from "react"
-import * as Ariakit from "@ariakit/react"
-// import {MenuTrigger, Button, Popover, Menu, Item} from 'react-aria-components';
 
-export const MenuExample: FC = () => {
-  // const menu = Ariakit.useMenuStore({
-  //   defaultOpen: true,
-  // });
-
-  return (
-    <Ariakit.MenuProvider>
-      <Ariakit.MenuButton className="button" showOnHover>
-        Actions
-        <Ariakit.MenuButtonArrow />
-      </Ariakit.MenuButton>
-      <Ariakit.Menu gutter={8} className="menu">
-        <Ariakit.MenuItem className="menu-item">Edit</Ariakit.MenuItem>
-        <Ariakit.MenuItem className="menu-item">Delete</Ariakit.MenuItem>
-        <Ariakit.MenuItem className="menu-item">Clone</Ariakit.MenuItem>
-      </Ariakit.Menu>
-    </Ariakit.MenuProvider>
-  )
-}
+export const MenuExample: FC = () => (
+  <>
+    <button
+      className="button"
+      id="actions-button"
+      aria-controls="actions-menu"
+      aria-haspopup="true"
+      aria-expanded="true"
+    >
+      Actions
+    </button>
+    <div
+      role="menu"
+      className="menu"
+      id="actions-menu"
+      aria-labelledby="actions-button"
+    >
+      <div className="menu-item">Edit</div>
+      <div className="menu-item">Delete</div>
+      <div className="menu-item">Clone</div>
+    </div>
+  </>
+)
