@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/progress-over-perfection/static/css/main.c894d6e4.css",
+    "main.js": "/progress-over-perfection/static/js/main.53a48b3f.js",
+    "static/js/787.838688ce.chunk.js": "/progress-over-perfection/static/js/787.838688ce.chunk.js",
+    "index.html": "/progress-over-perfection/index.html",
+    "main.c894d6e4.css.map": "/progress-over-perfection/static/css/main.c894d6e4.css.map",
+    "main.53a48b3f.js.map": "/progress-over-perfection/static/js/main.53a48b3f.js.map",
+    "787.838688ce.chunk.js.map": "/progress-over-perfection/static/js/787.838688ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c894d6e4.css",
+    "static/js/main.53a48b3f.js"
+  ]
+}
