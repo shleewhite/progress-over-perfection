@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ariakit/react": "^0.3.3",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/react-syntax-highlighter": "^15.5.7",
     "@types/reveal.js": "^4.4.2",
     "react": "^18.2.0",
-    "react-aria-components": "^1.0.0-beta.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^15.5.0",
@@ -26,6 +24,7 @@
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "latest",
+    "gh-pages": "^6.0.0",
     "prettier": "3.0.3",
     "typescript": "*"
   },
@@ -33,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "prettier": "prettier . --write"
+    "prettier": "prettier . --write",
+    "predeploy" : "yarn run build",
+    "deploy" : "gh-pages -d build"
   },
   "browserslist": {
     "production": [
