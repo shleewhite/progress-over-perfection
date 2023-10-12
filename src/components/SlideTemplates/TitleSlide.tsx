@@ -23,11 +23,7 @@ export const TitleSlideTemplate: FC<ITitleSlideTemplateProps> = ({
         rowGap: "4rem",
       }}
     >
-      <div
-        style={{
-          padding: "2rem",
-        }}
-      >
+      <div style={{ padding: "2rem" }}>
         <h2
           style={{
             fontWeight: "900",

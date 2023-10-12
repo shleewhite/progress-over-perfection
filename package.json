@@ -34,8 +34,8 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "prettier": "prettier . --write",
-    "predeploy" : "yarn run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

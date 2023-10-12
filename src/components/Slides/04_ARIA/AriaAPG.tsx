@@ -1,6 +1,6 @@
 import React, { type FC } from "react"
 
-import AriaPhoto from '../../../images/aria-apg.png'
+import AriaPhoto from "../../../images/aria-apg.png"
 import { VerticalThirdsSlideTemplate } from "../../SlideTemplates/VerticalThirdsSlide"
 
 export const AriaAPG: FC = () => (

@@ -1,6 +1,6 @@
 import React, { type FC } from "react"
 
-import IntroPhoto from '../../../images/lee.jpg';
+import IntroPhoto from "../../../images/lee.jpg"
 import { VerticalThirdsSlideTemplate } from "../../SlideTemplates/VerticalThirdsSlide"
 
 export const Intro: FC = () => (

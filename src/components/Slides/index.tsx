@@ -28,10 +28,12 @@ import { AriaLibraries } from "./04_ARIA/Libraries"
 import { Resources } from "./05_Conclusion/Resources"
 import { GAAD } from "./05_Conclusion/GAAD"
 import { ThankYou } from "./05_Conclusion/ThankYou"
+import { LinkToSlides } from "../SlideTemplates/LinkToSlides"
 
 export const Slides: FC = () => (
   <>
     <Title />
+    <LinkToSlides />
     <Intro />
     <Agenda />
     <AccessibilityTitle />
@@ -57,6 +59,7 @@ export const Slides: FC = () => (
     <AriaLibraries />
     <AriaDisclaimer />
     <Resources />
+    <LinkToSlides />
     <GAAD />
     <ThankYou />
   </>
