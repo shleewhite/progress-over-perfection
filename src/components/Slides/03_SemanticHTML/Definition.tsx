@@ -24,6 +24,7 @@ export const SemanticHTMLDefinition: FC = () => (
           <div
             style={{
               marginTop: "2rem",
+              marginLeft: '4rem',
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
               fontSize: "2rem",

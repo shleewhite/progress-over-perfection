@@ -339,6 +339,7 @@ export const PeopleGrid: FC<IPeopleGridProps> = ({ highlightedIndexes }) => (
       alignItems: "center",
       justifyItems: "center",
       width: "80vw",
+      alignSelf:'center',
     }}
   >
     {peopleSvgs.map((person, i) => (

@@ -1,5 +1,6 @@
 import React, { type FC } from "react"
 
+import AriaPhoto from '../../../images/aria-apg.png'
 import { VerticalThirdsSlideTemplate } from "../../SlideTemplates/VerticalThirdsSlide"
 
 export const AriaAPG: FC = () => (
@@ -14,7 +15,7 @@ export const AriaAPG: FC = () => (
           justifyContent: "center",
         }}
       >
-        <img src="/images/aria-apg.png" alt="" />
+        <img src={AriaPhoto} alt="" />
       </div>
     }
     secondColumn={

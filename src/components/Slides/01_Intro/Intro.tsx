@@ -1,5 +1,6 @@
 import React, { type FC } from "react"
 
+import IntroPhoto from '../../../images/lee.jpg';
 import { VerticalThirdsSlideTemplate } from "../../SlideTemplates/VerticalThirdsSlide"
 
 export const Intro: FC = () => (
@@ -16,7 +17,7 @@ export const Intro: FC = () => (
       >
         <img
           alt="Lee smiling in Gasworks park in Seattle clutching a coffee cup."
-          src="/images/lee.jpg"
+          src={IntroPhoto}
         />
       </div>
     }

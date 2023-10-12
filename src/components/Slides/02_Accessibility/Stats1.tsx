@@ -15,7 +15,6 @@ export const AccessibilityStats1: FC = () => (
         alignContent: "center",
         rowGap: "2rem",
         height: "100vh",
-        width: "100vw",
       }}
     >
       <h2 style={{ paddingTop: "1rem" }}>
