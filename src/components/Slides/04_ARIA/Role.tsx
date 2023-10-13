@@ -33,6 +33,11 @@ export const AriaRole: FC = () => (
           <MenuExample />
         </div>
       </div>
+      <p>
+        <a href="https://codesandbox.io/s/vanilla-button-menu-xv3gq2?file=/src/index.mjs:1229-1909">
+          CodeSandbox
+        </a>
+      </p>
     </div>
   </Slide>
 )

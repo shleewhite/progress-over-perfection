@@ -6,13 +6,13 @@ import { Slide } from "../../RevealComponents/Slide"
 import { MenuExample } from "../../Examples/Menu"
 
 const codeSnippet = `<button
-  id="actions-button"
+  id="actions-button" 
   aria-controls="actions-menu"
   aria-haspopup="true"
 >
   Actions
 </button>
-<div
+<div 
   role="menu"
   id="actions-menu" 
   aria-labelledby="actions-button"

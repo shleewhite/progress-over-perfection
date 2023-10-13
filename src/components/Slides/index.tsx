@@ -27,6 +27,7 @@ import { Resources } from "./05_Conclusion/Resources"
 import { GAAD } from "./05_Conclusion/GAAD"
 import { ThankYou } from "./05_Conclusion/ThankYou"
 import { LinkToSlides } from "../SlideTemplates/LinkToSlides"
+import { AriaJavascript } from "./04_ARIA/Javascript"
 
 export const Slides: FC = () => (
   <>
@@ -51,6 +52,7 @@ export const Slides: FC = () => (
     <AriaRole />
     <AriaProperty />
     <AriaState />
+    <AriaJavascript />
     <AriaAPG />
     <AriaLibraries />
     <AriaDisclaimer />

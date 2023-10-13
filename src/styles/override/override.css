@@ -61,6 +61,7 @@
 }
 .reveal pre {
   width: unset;
+  font-size: 1rem;
 }
 
 @media (min-width: 500px) {
@@ -72,6 +73,10 @@
   .reveal li:not(:last-child) {
     line-height: 2.5rem;
     padding-bottom: 1.25rem;
+  }
+
+  .reveal pre {
+    font-size: 1.5rem;
   }
 }
 
@@ -224,7 +229,8 @@
 
 .link-to-slides {
   height: 100vh;
-  width: 100vw;
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -424,6 +430,7 @@
 
   .people-slide img {
     padding: 0.75rem;
+    border-radius: 2rem;
   }
 }
 
@@ -490,6 +497,9 @@
 @media (min-width: 1200px) {
   .disability-spectrum-slide ul {
     flex-direction: row;
+  }
+
+  .disability-spectrum-slide > ul > li {
     font-size: 4rem;
   }
 
@@ -500,7 +510,7 @@
 }
 
 .semantic-example {
-  height: calc(100% - 4rem);
+  width: 100vw;
   padding-right: 1rem;
   padding-left: 1rem;
   display: flex;
@@ -513,6 +523,10 @@
   display: grid;
   grid-template-rows: auto auto;
   column-gap: 2rem;
+}
+
+.semantic-example .content pre {
+  max-height: 80vh;
 }
 
 .semantic-example .callout {
@@ -538,6 +552,9 @@
 }
 
 .aria-explain-slide {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -549,29 +566,44 @@
 
 .aria-explain-slide .code-container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   grid-template-rows: auto auto;
   justify-items: center;
   gap: 1em;
 }
 
 .aria-explain-slide .code-wrapper {
-  justify-self: flex-end;
+  justify-self: center;
 }
 
 .aria-explain-slide .menu-wrapper {
-  justify-self: flex-start;
+  justify-self: center;
 }
 
 @media (min-width: 500px) {
   .aria-explain-slide {
     margin: 4rem;
+    height: calc(100vh - 8rem);
+    overflow: hidden;
+  }
+
+  .aria-explain-slide .code-wrapper {
+    justify-self: flex-end;
+    width: 100%;
+  }
+
+  .aria-explain-slide .code-wrapper pre {
+    max-height: 50vh;
+  }
+
+  .aria-explain-slide .menu-wrapper {
+    justify-self: flex-start;
   }
 
   .aria-explain-slide .code-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: auto;
-    gap: 4em;
+    gap: 2em;
   }
 }
 
@@ -647,11 +679,6 @@
   font-weight: 500;
   height: fit-content;
   margin-bottom: 8px;
-}
-
-.button:active[aria-expanded="true"],
-.button[data-active][aria-expanded="true"] {
-  transform: scale(1);
 }
 
 @media (min-width: 500px) {

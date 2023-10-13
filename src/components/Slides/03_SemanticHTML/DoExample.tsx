@@ -7,23 +7,35 @@ import { Slide } from "../../RevealComponents/Slide"
 const codeSnippet = `<main>
   <h1>Accessibility resources</h1>
   <form>
-    <label for="resource-input">What accessibility resources have you used?</label>
+    <label for="resource-input">
+      What accessibility resources have you used?
+    </label>
     <input id="resource-input" />
     <button type="submit" aria-label="Submit">
       // svg
     </button>
   </form>
+  <img
+    src="/images/photo1.png" 
+    alt="A woman using a braille keyboard." 
+  />
   <div>
     <h2>My favorites</h2>
     <ul>
       <li>
-        <a href="https://www.a11yproject.com">A11y Project</a>
+        <a href="https://www.a11yproject.com">
+          A11y Project
+        </a>
       </li>
       <li>
-        <a href="https://www.w3.org/WAI/ARIA/apg/">ARIA Authoring Practices Guide</a>
+        <a href="https://www.w3.org/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide
+        </a>
       </li>
       <li>
-        <a href="https://www.whocanuse.com/">Who can use</a>
+        <a href="https://www.whocanuse.com/">
+          Who can use
+        </a>
       </li>
     </ul>
   </div>
@@ -45,6 +57,7 @@ export const SemanticHTMLDoExample: FC = () => (
             <li>The input is labelled</li>
             <li>Button has a label</li>
             <li>Links are in a list</li>
+            <li>Image has descriptive alt text</li>
           </ul>
         </div>
       </div>

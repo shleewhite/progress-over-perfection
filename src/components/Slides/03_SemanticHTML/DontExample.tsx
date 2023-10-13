@@ -7,17 +7,28 @@ import { Slide } from "../../RevealComponents/Slide"
 const codeSnippet = `<div>
   <div class="heading">Accessibility resources</div>
   <div>
-    <div>What accessibility resources have you used?</div>
+    <div>
+      What accessibility resources have you used?
+      </div>
     <input />
     <div class="icon-button">
       // svg
     </div>
   </div>
+  <img src="/images/photo1.png" />
   <div>
-    <div class="heading-small">My favorites</div>
-    <a href="https://www.a11yproject.com">A11y Project</a>
-    <a href="https://www.w3.org/WAI/ARIA/apg/">ARIA Authoring Practices Guide</a>
-    <a href="https://www.whocanuse.com/">Who can use</a>
+    <div class="heading-small">
+      My favorites
+    </div>
+    <a href="https://www.a11yproject.com">
+      A11y Project
+    </a>
+    <a href="https://www.w3.org/WAI/ARIA/apg/">
+      ARIA Authoring Practices Guide
+    </a>
+    <a href="https://www.whocanuse.com/">
+      Who can use
+    </a>
   </div>
 </div>
 `
@@ -36,6 +47,7 @@ export const SemanticHTMLDontExample: FC = () => (
             <li>Uses classes to indicate meaning visually</li>
             <li>Button with no label</li>
             <li>Text input with no label</li>
+            <li>Image with no alt text</li>
           </ul>
         </div>
       </div>

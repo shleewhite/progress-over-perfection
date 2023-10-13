@@ -55,6 +55,11 @@ export const Resources: FC = () => (
                 axe devtools
               </a>
             </li>
+            <li>
+              <a href="https://aremycolorsaccessible.com">
+                aremycolorsaccessible.com
+              </a>
+            </li>
           </ul>
         </div>
         <div className="resource-card general">
@@ -89,6 +94,9 @@ export const Resources: FC = () => (
             </li>
             <li>
               <a href="https://inclusivedesign24.org/2022/">#id24</a>
+            </li>
+            <li>
+              <a href="https://makeitfable.com">Fable</a>
             </li>
           </ul>
         </div>

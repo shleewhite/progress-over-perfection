@@ -5,17 +5,17 @@ import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/prism"
 import { Slide } from "../../RevealComponents/Slide"
 import { MenuExample } from "../../Examples/Menu"
 
-const codeSnippet = `<button 
+const codeSnippet = `<button
   id="actions-button"
   aria-controls="actions-menu"
-  aria-haspopup="true"
+  aria-haspopup="true" 
   aria-expanded="true/false"
 >
   Actions
 </button>
 <div
-  role="menu"
-  id="actions-menu"
+  role="menu" 
+  id="actions-menu" 
   aria-labelledby="actions-button"
 >
   <div role="menuitem">Edit</div>
