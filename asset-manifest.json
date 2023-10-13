@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/progress-over-perfection/static/css/main.c894d6e4.css",
-    "main.js": "/progress-over-perfection/static/js/main.8955d80a.js",
+    "main.css": "/progress-over-perfection/static/css/main.7539b6fd.css",
+    "main.js": "/progress-over-perfection/static/js/main.d82f9487.js",
     "static/js/787.838688ce.chunk.js": "/progress-over-perfection/static/js/787.838688ce.chunk.js",
     "static/media/lee.jpg": "/progress-over-perfection/static/media/lee.74928518eda0864d2c2a.jpg",
     "static/media/aria-apg.png": "/progress-over-perfection/static/media/aria-apg.a3760357c3a1e45bed50.png",
     "index.html": "/progress-over-perfection/index.html",
-    "main.c894d6e4.css.map": "/progress-over-perfection/static/css/main.c894d6e4.css.map",
-    "main.8955d80a.js.map": "/progress-over-perfection/static/js/main.8955d80a.js.map",
+    "main.7539b6fd.css.map": "/progress-over-perfection/static/css/main.7539b6fd.css.map",
+    "main.d82f9487.js.map": "/progress-over-perfection/static/js/main.d82f9487.js.map",
     "787.838688ce.chunk.js.map": "/progress-over-perfection/static/js/787.838688ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c894d6e4.css",
-    "static/js/main.8955d80a.js"
+    "static/css/main.7539b6fd.css",
+    "static/js/main.d82f9487.js"
   ]
 }
