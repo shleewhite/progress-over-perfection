@@ -541,6 +541,7 @@
 @media (min-width: 1200px) {
   .semantic-example {
     height: 100vh;
+    width: calc(100vw - 8rem);
     padding-right: 4rem;
     padding-left: 4rem;
   }
