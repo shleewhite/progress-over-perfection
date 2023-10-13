@@ -149,7 +149,6 @@
 .title-slide > aside {
   background-color: var(--r-main-color);
   color: var(--r-background-color);
-  font-size: var(--r-main-font-size);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -160,6 +159,7 @@
 
 .title-slide > aside > p {
   margin: 0px;
+  font-size: var(--r-main-font-size);
 }
 
 @media (min-width: 500px) {
