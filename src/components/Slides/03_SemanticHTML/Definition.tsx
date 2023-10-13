@@ -13,7 +13,7 @@ export const SemanticHTMLDefinition: FC = () => (
           display: "flex",
           flexDirection: "column",
           height: "100%",
-          paddingBottom: "4rem",
+          paddingBottom: "2rem",
         }}
       >
         <div style={{ flexGrow: 1 }}>
@@ -24,7 +24,7 @@ export const SemanticHTMLDefinition: FC = () => (
           <div
             style={{
               marginTop: "2rem",
-              marginLeft: "4rem",
+              marginLeft: "2rem",
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
               fontSize: "2rem",
@@ -77,7 +77,6 @@ export const SemanticHTMLDefinition: FC = () => (
             href="https://www.thoughtco.com/why-use-semantic-html-3468271"
             target="_blank"
             rel="noreferrer"
-            style={{ fontSize: "1.75rem" }}
           >
             Source: Why use semantic HTML?
           </a>

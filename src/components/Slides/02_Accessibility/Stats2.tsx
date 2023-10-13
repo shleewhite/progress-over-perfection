@@ -25,7 +25,6 @@ export const AccessibilityStats2: FC = () => (
         href="https://www.cdc.gov/media/releases/2018/p0816-disability.html"
         target="_blank"
         rel="noreferrer"
-        style={{ fontSize: "1.75rem" }}
       >
         CDC Press Release
       </a>

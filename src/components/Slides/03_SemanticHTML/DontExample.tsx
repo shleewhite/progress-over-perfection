@@ -24,37 +24,13 @@ const codeSnippet = `<div>
 
 export const SemanticHTMLDontExample: FC = () => (
   <Slide>
-    <div
-      style={{
-        height: "100vh",
-        paddingRight: "4rem",
-        paddingLeft: "4rem",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className="semantic-example">
       <h2 className="visually-hidden">What not to do</h2>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "2fr 1fr",
-          columnGap: "4rem",
-        }}
-      >
+      <div className="content">
         <SyntaxHighlighter language="markup" style={a11yDark} wrapLines>
           {codeSnippet}
         </SyntaxHighlighter>
-        <div
-          style={{
-            backgroundColor: "white",
-            borderRadius: "0.3rem",
-            marginTop: "0.5rem",
-            marginBottom: "0.5rem",
-            padding: "1rem",
-            height: "fit-content",
-          }}
-        >
+        <div className="callout">
           <h3>Issues</h3>
           <ul>
             <li>Uses classes to indicate meaning visually</li>

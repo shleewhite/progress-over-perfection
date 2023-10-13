@@ -16,7 +16,7 @@ export const AccessibilityCurrentState: FC = () => (
           display: "flex",
           flexDirection: "column",
           height: "100%",
-          paddingBottom: "4rem",
+          paddingBottom: "2rem",
         }}
       >
         <div style={{ flexGrow: 1 }}>
@@ -36,7 +36,6 @@ export const AccessibilityCurrentState: FC = () => (
             href="https://webaim.org/projects/million/"
             target="_blank"
             rel="noreferrer"
-            style={{ fontSize: "1.75rem" }}
           >
             Source: WebAIM Million
           </a>

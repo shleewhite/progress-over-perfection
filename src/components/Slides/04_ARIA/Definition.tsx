@@ -23,7 +23,6 @@ export const AriaDefinition: FC = () => (
             href="https://www.w3.org/WAI/ARIA/apg/about/aria-basics/"
             target="_blank"
             rel="noreferrer"
-            style={{ fontSize: "1.75rem" }}
           >
             Source: ARIA Basics
           </a>

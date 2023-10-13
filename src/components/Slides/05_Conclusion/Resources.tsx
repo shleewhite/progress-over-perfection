@@ -10,23 +10,8 @@ export const Resources: FC = () => (
       </h2>
     }
     secondColumn={
-      <div
-        style={{
-          display: "grid",
-          gridTemplateAreas:
-            '"coding general design""coding community community"',
-          gap: "2rem",
-        }}
-      >
-        <div
-          style={{
-            backgroundColor: "white",
-            borderRadius: "2rem",
-            padding: "1rem",
-            gridArea: "coding",
-            height: "fit-content",
-          }}
-        >
+      <div className="resources-grid">
+        <div className="resource-card coding">
           <h3>Coding</h3>
           <ul>
             <li>
@@ -72,15 +57,7 @@ export const Resources: FC = () => (
             </li>
           </ul>
         </div>
-        <div
-          style={{
-            backgroundColor: "white",
-            borderRadius: "2rem",
-            padding: "1rem",
-            gridArea: "general",
-            height: "fit-content",
-          }}
-        >
+        <div className="resource-card general">
           <h3>General</h3>
           <ul>
             <li>
@@ -115,15 +92,7 @@ export const Resources: FC = () => (
             </li>
           </ul>
         </div>
-        <div
-          style={{
-            backgroundColor: "white",
-            borderRadius: "2rem",
-            padding: "1rem",
-            gridArea: "design",
-            height: "fit-content",
-          }}
-        >
+        <div className="resource-card design">
           <h3>Design</h3>
           <ul>
             <li>
@@ -156,7 +125,7 @@ export const Resources: FC = () => (
           </ul>
         </div>
 
-        <p style={{ gridArea: "community", justifySelf: "flex-end" }}>
+        <p className="community">
           ...and join the{` `}
           <a href="https://web-a11y.slack.com/">
             accessibility Slack community

@@ -328,33 +328,15 @@ interface IPeopleGridProps {
 }
 
 export const PeopleGrid: FC<IPeopleGridProps> = ({ highlightedIndexes }) => (
-  <div
-    aria-hidden="true"
-    style={{
-      display: "inline-grid",
-      gridTemplateColumns: "auto auto auto auto auto auto",
-      gridTemplateRows: "200px 200px",
-      columnGap: "2rem",
-      rowGap: "2rem",
-      alignItems: "center",
-      justifyItems: "center",
-      width: "80vw",
-      alignSelf: "center",
-    }}
-  >
+  <div aria-hidden="true" className="people-grid">
     {peopleSvgs.map((person, i) => (
       <div
         key={i}
-        style={{
-          color:
-            highlightedIndexes !== undefined && highlightedIndexes.includes(i)
-              ? "#B30089"
-              : "#000",
-          height: "200px",
-          width: "auto",
-          display: "flex",
-          justifyContent: "center",
-        }}
+        className={`person ${
+          highlightedIndexes !== undefined && highlightedIndexes.includes(i)
+            ? "highlighted"
+            : ""
+        }`}
       >
         {person}
       </div>

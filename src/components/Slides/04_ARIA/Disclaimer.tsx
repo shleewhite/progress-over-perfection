@@ -102,7 +102,7 @@ export const AriaDisclaimer: FC = () => (
         href="https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/"
         target="_blank"
         rel="noreferrer"
-        style={{ fontSize: "1.75rem", marginTop: "1rem" }}
+        style={{ marginTop: "1rem" }}
       >
         Source: ARIA Authoring Practices &quot;Read me first&quot;
       </a>

@@ -10,11 +10,10 @@ export const AccessibilityWebDefinition: FC = () => (
     secondColumn={
       <div
         style={{
-          maxWidth: "60vw",
           display: "flex",
           flexDirection: "column",
           height: "100%",
-          paddingBottom: "4rem",
+          paddingBottom: "2rem",
         }}
       >
         <div style={{ flexGrow: 1 }}>
@@ -33,7 +32,7 @@ export const AccessibilityWebDefinition: FC = () => (
             href="https://www.w3.org/WAI/fundamentals/accessibility-intro/"
             target="_blank"
             rel="noreferrer"
-            style={{ fontSize: "1.75rem" }}
+            // style={{ fontSize: "1.75rem" }}
           >
             Source: W3C Introduction to Web Accessibility
           </a>

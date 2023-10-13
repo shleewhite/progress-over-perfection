@@ -15,14 +15,12 @@ import { SemanticHTMLDefinition } from "./03_SemanticHTML/Definition"
 import { SemanticHTMLAccessibility } from "./03_SemanticHTML/Accessibility"
 import { SemanticHTMLDontExample } from "./03_SemanticHTML/DontExample"
 import { SemanticHTMLDoExample } from "./03_SemanticHTML/DoExample"
-// import { SemanticHTMLQuickTips } from "./03_SemanticHTML/QuickTips";
 import { AriaTitle } from "./04_ARIA/Title"
 import { AriaDefinition } from "./04_ARIA/Definition"
 import { AriaDisclaimer } from "./04_ARIA/Disclaimer"
 import { AriaRole } from "./04_ARIA/Role"
 import { AriaProperty } from "./04_ARIA/Property"
 import { AriaState } from "./04_ARIA/State"
-// import { AriaExample } from "./04_ARIA/Example"
 import { AriaAPG } from "./04_ARIA/AriaAPG"
 import { AriaLibraries } from "./04_ARIA/Libraries"
 import { Resources } from "./05_Conclusion/Resources"
@@ -48,13 +46,11 @@ export const Slides: FC = () => (
     <SemanticHTMLAccessibility />
     <SemanticHTMLDontExample />
     <SemanticHTMLDoExample />
-    {/* <SemanticHTMLQuickTips /> */}
     <AriaTitle />
     <AriaDefinition />
     <AriaRole />
     <AriaProperty />
     <AriaState />
-    {/* <AriaExample /> */}
     <AriaAPG />
     <AriaLibraries />
     <AriaDisclaimer />

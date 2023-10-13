@@ -25,7 +25,6 @@ export const AccessibilityStats1: FC = () => (
         href="https://www.who.int/news-room/fact-sheets/detail/disability-and-health#:~:text=An%20estimated%201.3%20billion%20people,earlier%20than%20those%20without%20disabilities."
         target="_blank"
         rel="noreferrer"
-        style={{ fontSize: "1.75rem" }}
       >
         WHO Disability Fact Sheet
       </a>

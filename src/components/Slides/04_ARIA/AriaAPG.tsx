@@ -5,19 +5,7 @@ import { VerticalThirdsSlideTemplate } from "../../SlideTemplates/VerticalThirds
 
 export const AriaAPG: FC = () => (
   <VerticalThirdsSlideTemplate
-    firstColumn={
-      <div
-        style={{
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <img src={AriaPhoto} alt="" />
-      </div>
-    }
+    firstColumn={<img src={AriaPhoto} alt="" />}
     secondColumn={
       <div
         style={{
@@ -46,7 +34,6 @@ export const AriaAPG: FC = () => (
           href="https://www.w3.org/WAI/ARIA/apg/"
           target="_blank"
           rel="noreferrer"
-          style={{ fontSize: "1.75rem" }}
         >
           Learn more at the ARIA APG website
         </a>

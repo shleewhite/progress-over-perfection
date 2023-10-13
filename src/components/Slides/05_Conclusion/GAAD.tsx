@@ -7,11 +7,11 @@ export const GAAD: FC = () => (
     <div
       style={{
         height: "100vh",
-        width: "100vw",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        margin: "1rem",
       }}
     >
       <h2
